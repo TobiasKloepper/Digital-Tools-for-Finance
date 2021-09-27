@@ -1,0 +1,24 @@
+mkdir /to create a folder
+sublime merge possible for git and sublime
+echo""> notes.txt /to create a txt file
+subl notes.txt /to open the txt file
+git add notes.txt /to start tracking the file
+git add * /to add all
+git commit -m"initial commit of notes" /to make a commit and add a meaningful message! Still local but harder to lose
+git status /to see what you added and what needs to be committed
+git --oneline /to get the identifying name of each commit
+git checkout <insert name of commit> <file name> /to look at past file, only to look how files looked before, Git detached head error! use "git checkout main" afterwards
+git changes /to check out changes
+git restore <file name>/ to restore previous version
+git restore --staged <filename> /to restore if file is already in staging area, followed by siple git restore
+git reset <SHA> --hard /to just directly reverse changes it is a very dangerous command because it can delete files in your local repository, you lose all your changes, basically the last resort
+git revert <SHA> /to create a mirror commit without deleting the prior change you did not like, unwinds all the changes, always the first option
+echo "" > .gitignore /to create files i dont want to track, put stuff in there you want git to ignore like folders or document types, also see useful ignores in the script, files that are already committed or tracked wil continued to be tracked
+git remote add <shortname> <url> /to store your local repository on you companies server or something like github
+git clone <url> /to clone an online repository to you local 
+check out https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
+
+
+
+
+
