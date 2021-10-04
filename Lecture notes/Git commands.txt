@@ -17,8 +17,7 @@ echo "" > .gitignore /to create files i dont want to track, put stuff in there y
 git remote add <shortname> <url> /to store your local repository on you companies server or something like github
 git clone <url> /to clone an online repository to you local 
 check out https://docs.github.com/en/get-started/getting-started-with-git/about-remote-repositories
-
-
-
+git rebase -i <SHA> /for deep "time machine", revert, delete, rename old commits
+git commit --amend -m "" or --no-edit /to delete last commit
 
 
