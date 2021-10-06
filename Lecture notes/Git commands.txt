@@ -1,4 +1,5 @@
-mkdir /to create a folder
+mkdir <folder name> /to create a folder, it is possible tp create multiple folders at once
+mkdir -p Ordner/{A11,A12}/{AU1,AU2} / to create a folder Ordner with folders A11 and A12 both containing AU1 and AU2
 sublime merge possible for git and sublime
 echo""> notes.txt /to create a txt file
 subl notes.txt /to open the txt file
@@ -20,4 +21,13 @@ check out https://docs.github.com/en/get-started/getting-started-with-git/about-
 git rebase -i <SHA> /for deep "time machine", revert, delete, rename old commits
 git commit --amend -m "" or --no-edit /to delete last commit
 
-
+git remote add origin <HTML> / to initially add remote
+git push origin main/master or other branches
+git pull origin main master / to see new changes etc/does not overwrite
+git branch <name> / to create a new brach
+git checkout <branch-name> / to change branches
+git clone <https of github> / to download to your local repo
+use miro.com 
+To merge: 	git checkout <branch that should be merged to>
+		git fetch / after git checkout
+		git merge / to merge other branch to current one/oldone
