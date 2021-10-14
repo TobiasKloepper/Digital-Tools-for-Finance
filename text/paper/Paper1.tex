@@ -1,8 +1,21 @@
 \documentclass{article}
 \usepackage{blindtext}
 \usepackage{multirow}
+% bibliography
+\usepackage[
+    backend=biber,
+    style=bwl-FU,
+    url=false,
+    doi=false,
+    eprint=false
+]{biblatex}
+\addbibresource{Biblio.bib}
 \usepackage{threeparttable}
 \usepackage{booktabs}
+\usepackage{tabularx}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
+\newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
 \begin{document}
 \title{The Science of Learning LaTex}
 \author{Tobias Klöpper\thanks{Many thanks especially to Marco, his company and the delicious beer he provides} \\
@@ -18,7 +31,7 @@ This paper discusses the Science of Learning LaTeX. In particular it provides va
 \section{Figures and Tables}
 The following Table \ref{table:1} shows a list of beers and my assessment of them.
 \begin{table}[h!]
-\begin{tabular}{ |p{3cm}||p{3cm}|p{3cm}|p{3cm}|  }
+\begin{tabular}{ |C{3cm}||C{3cm}|C{3cm}|C{3cm}|  }
  \hline
  \multicolumn{4}{|c|}{Beer Ratings} \\
  \hline
@@ -58,4 +71,15 @@ Lets test another package with Table \ref{table:2}
 \caption{Beer Ratings with new packages}{}
 \label{table:2}
 \end{table}
+
+\newpage
+\section{Discussion}
+Even though Zhao et al. suggest that "chitooligosaccharide should be an excellent preservative to inhibit beer-spoilage bacteria in the brewing process and in the end product" (\cite{Zhao2015}), we are not quite convinced that it will not interfere with the Reinheitsgebot. On the other hand we discovered that Charles Beer does not seem to have any connection to this subject even though his name suggests so (\cite{Beer2003}).
+
+
+
+
+
+
+\printbibliography
 \end{document}
