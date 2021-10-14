@@ -3,10 +3,14 @@
 \usepackage{multirow}
 \usepackage{threeparttable}
 \usepackage{booktabs}
+\usepackage{graphicx}
+
 \begin{document}
 \title{The Science of Learning LaTex}
-\author{Tobias Klöpper\thanks{Many thanks especially to Marco, his company and the delicious beer he provides} \\
-\normalsize University of Zurich}
+\author{Tobias Klöpper \thanks{Many thanks especially to Marco, his company and the delicious beer he provides} \\
+\normalsize University of Zurich
+\and Marco Barcellos \thanks{Many thanks to all the beers that have allowed me to go on}\\
+\normalsize University of Minsk}
 \date{13th of October 2021}
 \maketitle
 \begin{abstract}
@@ -58,4 +62,16 @@ Lets test another package with Table \ref{table:2}
 \caption{Beer Ratings with new packages}{}
 \label{table:2}
 \end{table}
+
+\par
+
+The following figure shows a nice beer \ref{figure:1}
+      \begin{figure}[htb]\center 
+        \begin{tabular}{c}
+          \includegraphics[width=7cm]{important_figure.jpg}
+        \end{tabular}
+        \caption{\footnotesize BEER}
+        \label{figure:1}
+      \end{figure}
+
 \end{document}
