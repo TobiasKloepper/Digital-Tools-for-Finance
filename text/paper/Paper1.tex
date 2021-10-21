@@ -2,6 +2,8 @@
 \usepackage{blindtext}
 \usepackage{multirow}
 \usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
 % bibliography
 \usepackage[
     backend=biber,
@@ -20,7 +22,9 @@
 \begin{document}
 \title{The Science of Learning LaTex}
 \author{Tobias Klöpper\thanks{Many thanks especially to Marco, his company and the delicious beer he provides} \\
-\normalsize University of Zurich}
+\normalsize University of Zurich
+\and Michele Melek Senkal \thanks{thannks to mom}\\
+\normalsize university of Zürich}
 \date{13th of October 2021}
 \maketitle
 \begin{abstract}
@@ -72,6 +76,38 @@ Lets test another package with Table \ref{table:2}
 \caption{Beer Ratings with new packages}{}
 \label{table:2}
 \end{table}
+
+\newpage
+\subsection{Wines }
+\begin{table}[h]
+\centering
+\begin{tabular}{llr}
+\hline
+\multicolumn{2}{c}{Item} \\
+\cline{1-2}
+Types    & Origin & Price (\$) \\
+\hline
+Red wine      & Tuscany     & 99.99      \\
+White wine       & Bordeaux     & 20.50      \\
+Rosé       & Valais     & 5.95      \\
+Pinot Noir & Ticino      & 25.00       \\
+\hline
+\end{tabular}
+\caption{These are my wines}
+ \label{table:3}
+\end{table}
+
+\title{A project with images}
+\author{Overleaf}
+\date{}
+
+\section{Photos}
+\begin{figure}[htp]
+    \centering
+        \includegraphics[width=8cm]{redwine_tuscany.png}
+    \caption{An image of Tuscany red wine }
+    \label{fig:1}
+\end{figure}
 
 \newpage
 \section{Discussion}
