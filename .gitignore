@@ -1,10 +1,10 @@
 .PNG
-
+*/.ipynb_checkpoints
 
 # pycharm and ipython
 .idea/
 ./ipynb_checkponts
-./.ipynb_checkponts
+/.ipynb_checkponts
 ./visualization/.ipynb_checkpoints
 
 # latex stuff
