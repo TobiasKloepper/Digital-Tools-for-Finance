@@ -1,0 +1,98 @@
+\documentclass[fleqn,10pt]{olplainarticle}
+
+\usepackage{threeparttable}
+\usepackage{blindtext}
+\usepackage{verbatim}
+\usepackage[english]{babel}
+\usepackage{subfig}
+\usepackage{multirow}
+\usepackage{hyperref}
+\usepackage{authblk}
+
+\begin{document}
+
+\flushbottom
+\input{titlepage}
+
+\section*{Abstract}
+\blindtext[2]
+
+\section*{Thanks}
+We are really grateful for this opportunity to write a scientific paper that will be nominated for the Nobel-prize. Thanks to the previous work of \cite{Auctions}, \cite{Corona} and \cite{Tailwagseconomy}, we were able to solve the global problem of... (well read the article and find out)
+
+\newpage
+\section{Introduction}
+Welcome to this test article written by some very enthusiastic authors. Although in the introduction there should never be a list, these will be the topics discussed in this article.
+\blindlist{enumerate}[5]
+
+\section{Methods and Materials}
+
+We used several different methods which will be explained later in this paper.
+
+\subsection{Maths explained}
+We used the following maths in our paper.\\
+\blindmathtrue
+\blindtext[2]\\
+If you wish to see a more detailed description of maths used in another paper, that is in no way related to this abstract, please see \cite{Tailwagseconomy} and \cite{Corona}. If you are not satisfied, also check out \cite{Auctions}.
+
+\section{Main text}
+\blindtext[15]\\
+If you want to deepen the understanding of this text, please see the figure \ref{fig:figures}. 
+
+\newpage
+\section{Figures to undermine the fact that the text above has no meaning at all}
+\subsection{Figures}
+\begin{figure}[h]%
+    \centering
+    \subfloat[Visual representation of the text above]{{\includegraphics[width=5cm]{145160} }}%
+    \qquad
+    \subfloat[A joke that caught me off-guard]{{\includegraphics[width=5cm]{joke} }}%
+    \caption{Some... figures?}
+    \label{fig:figures}
+\end{figure}
+
+\section{Fancy tables}
+
+\begin{table}[h]
+\centering
+  \begin{threeparttable}
+    \caption{Sample ANOVA table}
+    \label{tab:table numero uno}
+     \begin{tabular}{lllll}
+        \toprule
+        Important name here & \( df \) & \( f \) & \( \eta \) & \( p \) \\
+        \midrule
+                 &     \multicolumn{4}{c}{Some random numbers}     \\
+        Row 1    & 1        & 0.67    & 0.55       & 0.41    \\
+        Row 2    & 2        & 0.02    & 0.01       & 0.39    \\
+        Row 3    & 3        & 0.15    & 0.33       & 0.34    \\
+        Row 4    & 4        & 1.00    & 0.76       & 0.54    \\
+        \bottomrule
+     \end{tabular}
+    \begin{tablenotes}
+      \small
+      \item I found this table on \href {https://tex.stackexchange.com/questions/12676/add-notes-under-the-table}{Stackexchange(link)}
+      and thought, why make a table myself when others have already done it for me?
+    \end{tablenotes}
+  \end{threeparttable}
+\end{table}
+Now, i can really recommend to take a closer look at table \ref{tab:table numero uno}, because it contains some life-changing information.
+
+
+\section{Because we love it, here's some maths}
+\subsection{As announced... some (unnecessary) maths}
+\begin{equation}
+  x = a_0 + \cfrac{1}{a_1 
+          + \cfrac{1}{a_2 
+          + \cfrac{1}{a_3 + \cfrac{1}{a_4} } } }
+\end{equation}
+
+\newpage
+\section*{Acknowledgments}
+
+A big thank you to all the people that ever supported and never doubted us - you are the real heroes. This paper might not be the best out there, but definitely Nobel-prize worthy. We will not forget you all when we visit Sweden and claim our very well deserved prize.
+
+\newpage
+\bibliography{sample}
+
+\end{document}
