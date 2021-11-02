@@ -1,10 +1,21 @@
-# Writing with LaTeX
+# Project Enviroment
+We decided on setting our Enviroment variable to RESEARCH_PATH.
 
-#
+The script that creates a new directory can be found here [directory_creator.bat](directory_creator.bat).
+
+# Collaboration Tools:
+Slack Group and Apps for Slack were created.
+
+[test-alice-bob](test-alice-bob) contains the Re-do of the toy example of a two-person worklfow.
+
+# Writing with LaTeX
+The folder [text](text) contains all the Latex excercises.
+
+There are multiple Paper and Presentation that fulfill the excersice requirements, but for easier navigation have a look at [Paper1](text/paper/Paper1.pdf) and [Beamer1](text/presentation/beamer1.pdf)
 
 # Data Management:
-Data is located in /data.
-API scripts are located in /API Exercises.
+Data is located in [data](data).
+API scripts are located in [API Exercises](API%2520Excercises).
 
 Scripts 'connect.py', 'downstream.py' and 'upstream.py' do the API job.
 
@@ -15,4 +26,4 @@ Notebook 'API_Binance.ipynb' has the answers to the Binance API exercise.
 
 The code produces either a csv or feather file in the %RESEARCH_PATH%/data directory.
 
-Markdown file API_FRED.md has the answers to the FRED API exercise.
+Markdown file [API_FRED](API Exercises/API_FRED.md) has the answers to the FRED API exercise.
