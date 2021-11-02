@@ -34,7 +34,9 @@
 \title{Beamer Test}
 \subtitle{A Discussion on important Topics}
 \date{\today}
-\author{Tobias Klöpper}
+\author{Tobias Klöpper
+& 
+Michele M. Senkal}
 \institute{Institute for Brewing and Degustation}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
@@ -76,6 +78,8 @@ The following Table \ref{table:1} shows a list of beers and my assessment of the
 \end{table}
 \end{frame}
 
+
+
 \begin{frame}{Table 2}
 \begin{table}[h]
 \begin{center}
@@ -98,6 +102,26 @@ The following Table \ref{table:1} shows a list of beers and my assessment of the
 \end{table}
 \end{frame}
 
+\begin{frame}{Table 3}
+\begin{table}[h]
+\centering
+\begin{tabular}{llr}
+\hline
+\multicolumn{2}{c}{Item} \\
+\cline{1-2}
+Types    & Origin & Price (\$) \\
+\hline
+Red wine      & Tuscany     & 99.99      \\
+White wine       & Bordeaux     & 20.50      \\
+Rosé       & Valais     & 5.95      \\
+Pinot Noir & Ticino      & 25.00       \\
+\hline
+\end{tabular}
+\caption{EU origin protected wine list}
+ \label{table:3}
+\end{table}
+\end{frame}
+
 \section{Discussion}
 \setbeamertemplate{frame footer}{This is a custom footer test} %applies to a section so References are also including footer
 \begin{frame}{Discussion}
@@ -108,7 +132,36 @@ Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an exce
 \begin{frame}[allowframebreaks]{References}
 
   \printbibliography
+@article{Bob di Maggio,
+    author = "Bob di Maggio",
+    title = "{la bontà del vino toscano}. ({Italian})
+    [{On} the crazy good taste of Tuscany red wine]",
+    journal = "annuale dell'enologo",
+    volume = "170",
+    number = "7",
+    pages = "4--20",
+    year = "1975",
+    DOI = "http://dx.doi.org/11.1004/andp.17053250078",
+    keywords = "italian red wine"
+}
 
+
+@online{knuthwebsite,
+    author = "Ciro lo Vino",
+    title = " Guida sui prezzi dei migliori vini di denominazione protetta",
+    url  = "http://www-cs-facoltà.laSapienzaRoma.edu/~uno/abcde.html",
+    addendum = "(accessed: 31.10.2021)",
+    keywords = "latex,loVino"
+}
+
+@inbook{Jacques Pirrard,
+    author = "Jacques Pirrard",
+    title = "Bordeaux une terre riche de vin",
+    publisher = "Vin et Champagne de France",
+    year = "2017",
+    chapter = "5",
+    keywords  = "vin français"
+}
 \end{frame}
 
 \end{document}
