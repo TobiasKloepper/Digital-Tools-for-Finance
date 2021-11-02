@@ -18,6 +18,9 @@
 \usepackage{threeparttable}
 \usepackage{booktabs}
 \usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{subfig}
+
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
@@ -98,6 +101,35 @@ The following Table \ref{table:1} shows a list of beers and my assessment of the
 \end{table}
 \end{frame}
 
+\begin{frame}{Important Equations}
+\framesubtitle{Using package amsmath}
+	\begin{gather}
+	  	e^{\pi i}  - 1 = 0 \\
+	 	 g = 10 m/s^2
+	\end{gather}
+\end{frame}
+
+\begin{frame}{Slide with Proof}
+\framesubtitle{Using the Theorem Environment}
+
+	\begin{theorem}
+	Let \(f\) be a function whose derivative exists in every point, then \(f\) 
+	is a continuous function.
+	\end{theorem}
+	See figure \ref{figure1}:
+
+	\begin{figure}
+		\centering 
+		\subfloat[\centering Bad Function]{{\includegraphics[width = 3cm]{figure.jpg} }}
+		\qquad
+		\subfloat[\centering Good Function]{{\includegraphics[width = 3cm]{figure2.jpg} }}
+		\caption{Good and Bad functions}
+		\label{figure1}
+	\end{figure}
+
+\end{frame}
+
+
 \section{Discussion}
 \setbeamertemplate{frame footer}{This is a custom footer test} %applies to a section so References are also including footer
 \begin{frame}{Discussion}
@@ -107,7 +139,7 @@ Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an exce
 
 \begin{frame}[allowframebreaks]{References}
 
-  \printbibliography
+\printbibliography
 
 \end{frame}
 
