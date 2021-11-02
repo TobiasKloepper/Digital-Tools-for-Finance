@@ -18,9 +18,6 @@
 \usepackage{threeparttable}
 \usepackage{booktabs}
 \usepackage{tabularx}
-\usepackage{graphicx}
-\usepackage{subfig}
-
 \newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}} % linksbündig mit Breitenangabe
 \newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}} % zentriert mit Breitenangabe
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
@@ -37,7 +34,9 @@
 \title{Beamer Test}
 \subtitle{A Discussion on important Topics}
 \date{\today}
-\author{Tobias Klöpper, Michele M. Senkal}
+\author{Tobias Klöpper
+& 
+Michele M. Senkal}
 \institute{Institute for Brewing and Degustation}
 % \titlegraphic{\hfill\includegraphics[height=1.5cm]{logo.pdf}}
 
@@ -93,17 +92,6 @@ The following Table \ref{table:1} shows a list of beers and my assessment of the
       Oettinger Pils\tnote{2}   & Germany & Export & 2/10 \\ 
       \bottomrule
 \end{tabular}
-\begin{tablenotes}
-\item[1] \footnotesize actually quite pleasant, even cheaply attainable in Kiosks for about 1€; \item[2] \footnotesize only consume ice cold, tastes way better after you already had a couple of beers
-\end{tablenotes}
-\end{threeparttable}
-\end{center}
-\caption{Beer Ratings with new packages}{}
-\label{table:2}
-\end{table}
-\end{frame}
-
-\begin{frame}{Table 3}
 \begin{table}[h]
 \centering
 \begin{tabular}{llr}
@@ -121,36 +109,15 @@ Pinot Noir & Ticino      & 25.00       \\
 \caption{EU origin protected wine list}
  \label{table:3}
 \end{table}
+\begin{tablenotes}
+\item[1] \footnotesize actually quite pleasant, even cheaply attainable in Kiosks for about 1€; \item[2] \footnotesize only consume ice cold, tastes way better after you already had a couple of beers
+\end{tablenotes}
+\end{threeparttable}
+\end{center}
+\caption{Beer Ratings with new packages}{}
+\label{table:2}
+\end{table}
 \end{frame}
-
-\begin{frame}{Important Equations}
-\framesubtitle{Using package amsmath}
-	\begin{gather}
-	  	e^{\pi i}  - 1 = 0 \\
-	 	 g = 10 m/s^2
-	\end{gather}
-\end{frame}
-
-\begin{frame}{Slide with Proof}
-\framesubtitle{Using the Theorem Environment}
-
-	\begin{theorem}
-	Let \(f\) be a function whose derivative exists in every point, then \(f\) 
-	is a continuous function.
-	\end{theorem}
-	See figure \ref{figure1}:
-
-	\begin{figure}
-		\centering 
-		\subfloat[\centering Bad Function]{{\includegraphics[width = 3cm]{figure.jpg} }}
-		\qquad
-		\subfloat[\centering Good Function]{{\includegraphics[width = 3cm]{figure2.jpg} }}
-		\caption{Good and Bad functions}
-		\label{figure1}
-	\end{figure}
-
-\end{frame}
-
 
 \section{Discussion}
 \setbeamertemplate{frame footer}{This is a custom footer test} %applies to a section so References are also including footer
@@ -161,8 +128,37 @@ Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an exce
 
 \begin{frame}[allowframebreaks]{References}
 
-\printbibliography
+  \printbibliography
+@article{Bob di Maggio,
+    author = "Bob di Maggio",
+    title = "{la bontà del vino toscano}. ({Italian})
+    [{On} the crazy good taste of Tuscany red wine]",
+    journal = "annuale dell'enologo",
+    volume = "170",
+    number = "7",
+    pages = "4--20",
+    year = "1975",
+    DOI = "http://dx.doi.org/11.1004/andp.17053250078",
+    keywords = "italian red wine"
+}
 
+
+@online{knuthwebsite,
+    author = "Ciro lo Vino",
+    title = " Guida sui prezzi dei migliori vini di denominazione protetta",
+    url  = "http://www-cs-facoltà.laSapienzaRoma.edu/~uno/abcde.html",
+    addendum = "(accessed: 31.10.2021)",
+    keywords = "latex,loVino"
+}
+
+@inbook{Jacques Pirrard,
+    author = "Jacques Pirrard",
+    title = "Bordeaux une terre riche de vin",
+    publisher = "Vin et Champagne de France",
+    year = "2017",
+    chapter = "5",
+    keywords  = "vin français"
+}
 \end{frame}
 
 \end{document}
