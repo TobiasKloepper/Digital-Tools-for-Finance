@@ -21,10 +21,14 @@
 \newcolumntype{R}[1]{>{\raggedleft\arraybackslash}p{#1}} % rechtsbündig mit Breitenangabe
 \begin{document}
 \title{The Science of Learning LaTex}
-\author{Tobias Klöpper\thanks{Many thanks especially to Marco, his company and the delicious beer he provides} \\
+\author{Tobias Klöpper\thanks{Many thanks especially to Marco, his company and the delicious beer he provides}\\
 \normalsize University of Zurich
 \and Michele Melek Senkal \thanks{Thanks very much to Marco and each member of this group}\\
-\normalsize University of Zürich}
+\normalsize University of Zürich
+\and Marco Barcellos \thanks{Many thanks to all the beers that have allowed me to go on}\\
+\normalsize University of Minsk
+\and David Annoni \thanks{Many thanks to Stack Overflow}\\
+\normalsize University of Zurich}
 \date{13th of October 2021}
 \maketitle
 \begin{abstract}
@@ -78,7 +82,7 @@ Lets test another package with Table \ref{table:2}
 \end{table}
 
 \newpage
-\subsection{Wines }
+\subsection{Wines}
 \begin{table}[h]
 \centering
 \begin{tabular}{llr}
@@ -97,11 +101,8 @@ Pinot Noir & Ticino      & 25.00       \\
  \label{table:3}
 \end{table}
 
-\title{A project with images}
-\author{Overleaf}
-\date{}
 
-\section{Photos}
+\section{Figures}
 \begin{figure}[htp]
     \centering
         \includegraphics[width=8cm]{redwine_tuscany.png}
@@ -109,9 +110,12 @@ Pinot Noir & Ticino      & 25.00       \\
     \label{fig:1}
 \end{figure}
 
+
 \newpage
 \section{Discussion}
-Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an excellent preservative to inhibit beer-spoilage bacteria in the brewing process and in the end product" , we are not quite convinced that it will not interfere with the Reinheitsgebot. On the other hand we discovered that Charles \cite{Beer2003} does not seem to have any connection to this subject even though his name suggests so .
+Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an excellent preservative to inhibit beer-spoilage bacteria in the brewing process and in the end product" , we are not quite convinced that it will not interfere with the Reinheitsgebot. On the other hand we discovered that Charles \cite{Beer2003} does not seem to have any connection to this subject even though his name suggests so. 
+
+Further literature includes \cite{1982}, \cite{Tail} or \cite{corona}.
 
 \par
 \begin{align}
@@ -120,7 +124,7 @@ Even though \cite{Zhao2015} suggest that "chitooligosaccharide should be an exce
 
 
 
-
+\newpage
 
 
 \printbibliography
