@@ -9,9 +9,9 @@ Slack Group and Apps for Slack were created.
 [test-alice-bob](test-alice-bob) contains the Re-do of the toy example of a two-person workflow.
 
 # Writing with LaTeX
-The folder [text](text) contains all the Latex exercises.
+The folder [text](text) contains all the LaTex exercises.
 
-There are multiple Paper and Presentation that fulfil the exercise requirements, but for easier navigation have a look at [Paper1](text/paper/Paper1.pdf) and [Beamer1](text/presentation/beamer1.pdf)
+There are multiple Papers and Presentations that fulfil the exercise requirements, but for an easier navigation please have a look at [Paper1](text/paper/Paper1.pdf) and [Beamer1](text/presentation/beamer1.pdf)
 
 # Data Management:
 Data is located in [data](data).
