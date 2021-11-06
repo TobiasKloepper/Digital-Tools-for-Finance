@@ -1,6 +1,8 @@
 .PNG
 */.ipynb_checkpoints
 
+# /data
+
 # pycharm and ipython
 .idea/
 ./ipynb_checkponts
