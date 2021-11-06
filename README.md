@@ -6,7 +6,7 @@ The script that creates a new directory can be found here [directory_creator.bat
 # Collaboration Tools:
 Slack Group and Apps for Slack were created.
 
-[test-alice-bob](test-alice-bob) contains the Re-do of the toy example of a two-person workflow.
+[test-alice-bob](test-alice-bob) is where the toy example of the two-person workflow was carried out. The commit history on the 6th of October shows its development, including the Pull Request to merge branch 'feature-1' into 'master'.
 
 Some branches were not deleted after being merged. This is because we wanted to preserve the history and facilitate the evaluation.
 
