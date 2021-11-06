@@ -13,10 +13,10 @@ Some branches were not deleted after being merged. This is because we wanted to 
 # Writing with LaTeX
 The folder [LaTeX Exercises](LaTeX%20Exercises) contains all the LaTex exercises.
 
-There are multiple Papers and Presentations that fulfil the exercise requirements, but for an easier navigation please have a look at [Paper1](text/paper/Paper1.pdf) and [Beamer1](text/presentation/beamer1.pdf).
+There are multiple Papers and Presentations that fulfil the exercise requirements, but for an easier navigation please have a look at [Paper1](LaTeX%20Exercises/paper/Paper1.pdf) and [Beamer1](LaTeX%20Exercises/presentation/beamer1.pdf).
 
 # Data Management:
-Data relative to this exercise is located in [API%20Exercises/data](API%20Exercises/data).
+Data relative to this exercise is located in [API Exercises/data](API%20Exercises/data).
 API scripts are located in [API Exercises](API%20Exercises).
 
 Scripts [connect.py](API%20Exercises/connect.py), [downstream.py](API%20Exercises/downstream.py) and [upstream.py](API%20Exercises/upstream.py) do the API job.
