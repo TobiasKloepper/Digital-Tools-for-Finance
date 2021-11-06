@@ -8,8 +8,10 @@ Slack Group and Apps for Slack were created.
 
 [test-alice-bob](test-alice-bob) contains the Re-do of the toy example of a two-person workflow.
 
+Some branches were not deleted after being merged. This is because we wanted to preserve the history and facilitate the evaluation.
+
 # Writing with LaTeX
-The folder [LaTeX Exercises/text](LaTeX%20Exercises/text) contains all the LaTex exercises.
+The folder [LaTeX Exercises](LaTeX%20Exercises) contains all the LaTex exercises.
 
 There are multiple Papers and Presentations that fulfil the exercise requirements, but for an easier navigation please have a look at [Paper1](text/paper/Paper1.pdf) and [Beamer1](text/presentation/beamer1.pdf).
 

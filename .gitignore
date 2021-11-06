@@ -1,11 +1,13 @@
 .PNG
 */.ipynb_checkpoints
+.ipynb_checkpoints
+/__pycache__
 
 # /data
 
 # pycharm and ipython
 .idea/
-./ipynb_checkponts
+/ipynb_checkponts
 /.ipynb_checkponts
 ./visualization/.ipynb_checkpoints
 
