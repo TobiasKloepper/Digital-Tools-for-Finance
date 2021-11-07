@@ -10,6 +10,8 @@ Slack Group and Apps for Slack were created.
 
 Some branches were not deleted after being merged. This is because we wanted to preserve the history and facilitate the evaluation.
 
+This weekend we decided to reorganize the repo and we renamed a few folders and files and this caused their commit history to look much shorter. For example, the folder "LaTeX Exercises" used to be called just "text". In Github now, when checking the history of "LaTeX Exercises" we see only two commits: [LaTeX Exercise](https://github.com/TobiasKloepper/Digital-Tools-for-Finance/commits/master/LaTeX%20Exercises). However, when checking the entire repo on an older commit and revising the "text" folder, its history is full: [old "text" folder before renaming](https://github.com/TobiasKloepper/Digital-Tools-for-Finance/commits/3927138639e22ba7f954d65d5dd6b5b4cc903661/text). We just thought it would be relevant to mention this.
+
 # Writing with LaTeX
 The folder [LaTeX Exercises](LaTeX%20Exercises) contains all the LaTex exercises.
 
