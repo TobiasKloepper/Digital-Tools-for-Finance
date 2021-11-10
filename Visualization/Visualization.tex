@@ -86,10 +86,32 @@ $2015$ & \cca{2} & \cca{2} & \cca{7} & \cca{2} & \cca{6}\\
 
 \section{Line plot color blind-friendly}
 
+\begin{tikzpicture}
+\begin{axis}[
+    x tick label style={
+        /pgf/number format/1000 sep=},
+    title={Camparison of Beer Consumption in l per day},
+    ylabel=Amount of beer,
+    enlargelimits=0.05,
+    legend style={at={(0.5,-0.1)},
+    anchor=north,legend columns=-1},
+    ybar interval=0.7,
+    ymajorgrids=true,
+    grid style=dashed,
+]
+\addplot 
+    coordinates {(2012,408184) (2011,408348)
+         (2010,414870) (2009,412156)};
+\addplot 
+    coordinates {(2012,388950) (2011,393007) 
+        (2010,398449) (2009,395972)};
+\legend{Men,Women}
+\end{axis}
+\end{tikzpicture}
 
 \section{Why put a grid on plots?}
 
-
+Sometimes it can be difficult to figure out how high a bar actually is especially if the graph is very large and cotains a lot of different bars. Therefore, the implementation of lines can guide the reader and help asses the real values that are being compared.
 \newpage
 
 
