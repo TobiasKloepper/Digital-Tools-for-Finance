@@ -51,3 +51,4 @@ src/
 !src/*.py
 !src/*.R
  
+packrat/lib*/
