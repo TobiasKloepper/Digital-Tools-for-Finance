@@ -33,7 +33,7 @@ The code produces either a csv or feather file in the "%RESEARCH_PATH%/API Exerc
 Markdown file [API_FRED](API%20Exercises/API_FRED.md) has the answers to the FRED API exercise.
 
 # Visualization
-File (Visualization.pdf)[Visualization/Visualization.pdf] contains a table produced with dcolumn, a heatmap table and a color blind-friendly plot. The corresponding LaTeX file is also present (here)[Visualization/marco_visualization.tex]. A further PDF file with a dcolumn table and heatmap plots can be found (here)[Visualization/marco_visualization.pdf] along with some other plots (here)[Visualization/r_gb_5counts.pdf] and (here)[Visualization/heat_hist.pdf].
+File [Visualization.pdf](Visualization/Visualization.pdf) contains a table produced with dcolumn, a heatmap table and a color blind-friendly plot. The corresponding LaTeX file is also present [here](Visualization/marco_visualization.tex). A further PDF file with a dcolumn table and heatmap plots can be found [here](Visualization/marco_visualization.pdf) along with some other plots [here](Visualization/r_gb_5counts.pdf) and [here](Visualization/heat_hist.pdf).
 
 # Packrat
 File [myPackratExamplePlot.R](Knowledge%20Transfer/1_packrat/myPackratExamplePlot.R) has an 'exploration journal' reporting our learning experiences with the package.
@@ -42,11 +42,11 @@ A Bonus Plot made with ggplot2 can be found [here](Knowledge%20Transfer/1_packra
 
 # R Shiny
 It was really painful but I cannot believe that I managed to exclude stocks from the regression!!
-(Woohoo!!)[Knowledge Transfer/2_R_Shiny_Stuff/digital-tools-for-finance/r-shiny-tutorial/app.R]
+[Woohoo!!](Knowledge%20Transfer/2_R_Shiny_Stuff/digital-tools-for-finance/r-shiny-tutorial/app.R)
 
 When you run the app, you have checkboxGroupInput selectors on the sidebar that allow you to exclude stocks. The regression is recalculated and a new plot is displayed.
 
 # Jupyter Notebook
-A (simple notebook)[Jupyter Notebook/students_t_distrib.ipynb] that plots a probability density function was created. The plot outputs should be present in the .ipynb file.
+A [simple notebook](Jupyter%20Notebook/students_t_distrib.ipynb) that plots a probability density function was created. The plot outputs should be present in the .ipynb file.
 
 Additionally, a cell that uses a slider widget to modify the degrees of freedom parameter in the density function is also present, allowing the reader to see how the pdf changes instantaneously.
