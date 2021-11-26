@@ -42,11 +42,11 @@ A Bonus Plot made with ggplot2 can be found [here](Knowledge%20Transfer/1_packra
 
 # R Shiny
 It was really painful but I cannot believe that I managed to exclude stocks from the regression!!
-Woohoo!!
+(Woohoo!!)[Knowledge Transfer/2_R_Shiny_Stuff/digital-tools-for-finance/r-shiny-tutorial/app.R]
 
 When you run the app, you have checkboxGroupInput selectors on the sidebar that allow you to exclude stocks. The regression is recalculated and a new plot is displayed.
 
 # Jupyter Notebook
-A simple notebook that plots a probability density function was created. The plot outputs should be present in the .ipynb file.
+A (simple notebook)[Jupyter Notebook/students_t_distrib.ipynb] that plots a probability density function was created. The plot outputs should be present in the .ipynb file.
 
 Additionally, a cell that uses a slider widget to modify the degrees of freedom parameter in the density function is also present, allowing the reader to see how the pdf changes instantaneously.
