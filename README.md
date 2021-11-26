@@ -31,3 +31,22 @@ Notebook [API_Binance.ipynb](API%20Exercises/API_Binance.ipynb) has the answers 
 The code produces either a csv or feather file in the "%RESEARCH_PATH%/API Exercises/data" directory.
 
 Markdown file [API_FRED](API%20Exercises/API_FRED.md) has the answers to the FRED API exercise.
+
+# Visualization
+File (Visualization.pdf)[Visualization/Visualization.pdf] contains a table produced with dcolumn, a heatmap table and a color blind-friendly plot. The corresponding LaTeX file is also present (here)[Visualization/marco_visualization.tex]. A further PDF file with a dcolumn table and heatmap plots can be found (here)[Visualization/marco_visualization.pdf] along with some other plots (here)[Visualization/r_gb_5counts.pdf] and (here)[Visualization/heat_hist.pdf].
+
+# Packrat
+File [myPackratExamplePlot.R](Knowledge%20Transfer/1_packrat/myPackratExamplePlot.R) has an 'exploration journal' reporting our learning experiences with the package.
+
+A Bonus Plot made with ggplot2 can be found [here](Knowledge%20Transfer/1_packrat/diamonds_plot.pdf).
+
+# R Shiny
+It was really painful but I cannot believe that I managed to exclude stocks from the regression!!
+Woohoo!!
+
+When you run the app, you have checkboxGroupInput selectors on the sidebar that allow you to exclude stocks. The regression is recalculated and a new plot is displayed.
+
+# Jupyter Notebook
+A simple notebook that plots a probability density function was created. The plot outputs should be present in the .ipynb file.
+
+Additionally, a cell that uses a slider widget to modify the degrees of freedom parameter in the density function is also present, allowing the reader to see how the pdf changes instantaneously.
