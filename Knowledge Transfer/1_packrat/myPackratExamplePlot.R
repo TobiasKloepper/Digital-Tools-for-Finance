@@ -63,4 +63,41 @@ diamonds %>% filter(cut == "Premium") %>%
 #Up to date.
 
 # Cool.
+# Now I made a commit and pushed to Git.
 
+# Let's close RStudio, delete the library folder and open this script again.
+
+# After deleting the 'lib' and 'src' folders and stuff, now I see all the old-school packages
+# I had listed there --> even after just opening RStudio by clicking on this script. I assume that if my library collection was smaller
+# I'd have only the basic packages to see.
+
+# Let's do packrat::status()
+
+# The following packages are used in your code, tracked by packrat, but no longer present in your library:
+# from   to
+# DBI             1.1.1   NA
+# R6              2.5.1   NA
+# RColorBrewer    1.1-2   NA
+# and so on...
+#
+#
+# Use packrat::restore() to restore these libraries.
+
+# okay, running packrat::restore()
+
+# Installing evaluate (0.14) ... 
+# OK (built source)
+# Installing fansi (0.5.0) ... 
+# OK (built source)
+# Installing farver (2.1.0) ... 
+# OK (built source)
+# and on on...
+
+# Cool. It's a quite slow though.
+# Bra, this takes forever! I think it's because it's seeking each package
+# individually, rather than just downloading 'tidyverse' all at once.
+
+# Okay, done.
+# Now let's restart RStudio from this script and try to produce the plot.
+
+# Great! There it is.
